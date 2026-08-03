@@ -9,10 +9,10 @@
 
 <body>
 
-  <div>
-    <a href="index.html">Home</a>
-    <a href="tags.html">HTML Tags</a>
-    <a href="moby_dick.html">Moby Dick</a>
+  <div style="text-align: right;">
+    <a href="index.html" style="text-decoration: none; color: #8800ff;">Home</a>
+    <a href="tags.html" class="nav-spacing">HTML Tags</a>
+    <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
   </div>
 
   <h1>Important HTML tags</h1>
@@ -28,6 +28,36 @@
   </p>
 
   <p>The tables below don't include all HTML tags, but they do list many of the most important ones.</p>
+
+  <h2>Document Tags</h2>
+
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td><code>html</code></td>
+      <td>indicates that document should be parsed and rendered as html</td>
+    </tr>
+    <tr>
+      <td><code>head</code></td>
+      <td>houses document metadata, scripts, and stylesheet links</td>
+    </tr>
+    <tr>
+      <td><code>meta</code></td>
+      <td>defines machine-readable metadata about an HTML document; not visible directly on the webpage; used by browser, search engines, and web services; always placed within the <code>head</code> element.</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td> sets the page name shown in broswer tabs</td>
+    </tr>
+    <tr>
+      <td><code>body</code></td>
+      <td>contains all visible content displayed to the user</td>
+    </tr>
+
+  </table>
 
   <h2>Block Elements</h2>
 
@@ -92,10 +122,15 @@
       <td>list item</td>
       <td>include an item in an ordered or unordered list</td>
     </tr>
+    <tr>
+      <td><code>blockquote</code></td>
+      <td>blockquote</td>
+      <td>include a quote that starts and ends with a new line and takes up the width of its container</td>
+    </tr>
 
   </table>
 
-  <h2>Inline Elements</h2>
+    <h2>Inline Elements</h2>
 
   <table>
     <tr>
@@ -146,6 +181,13 @@
       <td>non-semantic; marks up text for styling</td>
       <td><code>&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code></td>
       <td><span>Call me Ishmael.</span></td>
+    </tr>
+    <tr>
+      <td><code>br</code></td>
+      <td>line break</td>
+      <td>single tag after which a new line begins; useful for text like poems and addresses</td>
+      <td><code>This is just to say &lt;br&gt;I have eaten</code></td>
+      <td><span>This is just to say <br>I have eaten</span></td>
     </tr>
   </table>
 
