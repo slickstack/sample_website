@@ -4,3 +4,28 @@
 .nav-spacing {
     margin: 0 0 0 10px;
 }
+.image-link {
+    text-decoration: none;
+}
+.header-align {
+    text-align: center; margin: 0 80px;
+}
+.block-image {
+    display: block; margin: 0 auto;
+}
+.inline-image {
+    float: left; 
+    margin: 20px 40px;
+}
+.book-report {
+    width: 500px; 
+    margin: 20px auto; 
+    padding: 30px; 
+    background-color: #fafafa;
+}
+.quote-text {
+    font-style: normal; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ff0000;
+}
